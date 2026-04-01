@@ -1,0 +1,9 @@
+name: Deploy Dist
+on: [push,workflow_dispatch]
+
+jobs:
+  deploy-dist:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Dist
+        run: echo "Deploying Dist..."
